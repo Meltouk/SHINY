@@ -46,7 +46,7 @@ create(){
 this.bgMusic.play();
 
     // hitbox mantarraya
-    this.manta.body.setSize(this.manta.width * 0.6, this.manta.height * 0.6);
+    this.manta.body.setSize(this.manta.width * 0.5, this.manta.height * 0.5);
 
     //tubos , grupo creado
     this.pipes = this.physics.add.group();
